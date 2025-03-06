@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/generales.css">
+    <link rel="stylesheet" href="styles/botones.css">
+    <title>Calculadora</title>
+</head>
+<body>
+    
+    <main class="contenedor shadow-box">
+
+        <div class="contenedor_resultado">
+            <p id="resultado"></p>
+            <div id="resultados"></div>
+        </div>
+    
+        <div id="botones">
+    
+            <button class="boton" data-tecla="7" id="siete">7</button>
+            <button class="boton" data-tecla="8" id="ocho">8</button>
+            <button class="boton" data-tecla="9" id="nueve">9</button>
+            <button class="boton accion" data-tecla="+" id="suma">+</button>
+            
+            <div class="limpieza">
+                <button class="boton" data-tecla="c" id="limpiar">C</button>
+                <button class="boton" data-tecla="a" id="limpiarTodo">AC</button>
+            </div>
+    
+            <button class="boton" data-tecla="4" id="cuatro">4</button>
+            <button class="boton" data-tecla="5" id="cinco">5</button>
+            <button class="boton" data-tecla="6" id="seis">6</button>
+            <button class="boton accion" data-tecla="/" id="division">÷</button>
+            
+            <button class="boton" data-tecla="1" id="uno">1</button>
+            <button class="boton" data-tecla="2" id="dos">2</button>
+            <button class="boton" data-tecla="3" id="tres">3</button>
+            <button class="boton accion" data-tecla="*" id="multiplicacion">x</button>
+            
+            <button class="boton" data-tecla="." id="decimal">.</button>
+            <button class="boton" data-tecla="0" id="cero">0</button>
+            <button class="boton" data-tecla="Backspace" id="del">del</button>
+            <button class="boton accion" data-tecla="-" id="resta">-</button>
+
+            <button class="boton" data-tecla="Enter" id="igual">=</button>
+    
+        </div>
+    </main>
+    <script src="app.js"></script>
+</body>
+</html>

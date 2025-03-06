@@ -1,0 +1,62 @@
+
+
+#botones {
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr 1fr 1fr;
+}
+
+.boton {
+    height: 4rem;
+    font-family: 'Rubik', sans-serif;
+    font-size: 1.3rem;
+    text-decoration: none;
+    padding: .6rem;
+    cursor: pointer;
+    background-color: #1F2326;
+    color: #FAFAFA;
+    border: 1px solid #2A2E32;
+}
+.boton:hover {
+    filter: brightness(70%);
+}
+
+.tecla-presionada {
+    filter: brightness(70%);
+}
+
+.limpieza {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    
+}
+
+#limpiar,
+#limpiarTodo {
+    background-color: #dcaa15;
+}
+
+#igual {
+    height: auto;
+    font-size: 2rem;
+    color: #2A2E32;
+    background-color: #FFC207;
+    border: 1px solid #cd9e11;
+    grid-column-start: 5;
+    grid-column-end: 6;
+    grid-row-start: 2;
+    grid-row-end: 5;
+}
+#igual:hover {
+    filter: brightness(85%);
+}
+
+.accion {
+    background-color: #5F4BB6;
+    border-top: 1px solid #5644a8;
+    border-bottom: 1px solid #5644a8;
+}
+
+#limpiar,
+#limpiarTodo {
+    border: 1px solid #bd910b;
+}
